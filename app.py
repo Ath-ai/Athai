@@ -59,4 +59,4 @@ with gr.Blocks() as demo:
 
     submit_btn.click(chat_and_tts, inputs=[user_input, state], outputs=[chatbot, state, audio_output])
 
-demo.launch()
+demo.launch(share=True)
